@@ -99,56 +99,54 @@ body{
 
 <script>
 
-function getID(){
-    const params = new URLSearchParams(window.location.search);
-    return parseInt(params.get("id")) || 1;
-}
+let currentIndex = 0;
+let people = [];
 
-fetch("thongtin.txt")
+fetch("thongtin.txt?v=" + Date.now())
 .then(res => res.text())
 .then(text => {
 
-    const blocks = text.split("===").filter(b => b.trim() !== "");
-    const id = getID() - 1;
+    people = text.split("===").filter(b => b.trim() !== "");
 
-    if(id < 0 || id >= blocks.length){
-        document.getElementById("data").innerHTML = "KHÔNG TÌM THẤY NGƯỜI";
-        return;
-    }
+    showPerson(currentIndex);
 
-    const lines = blocks[id].trim().split("\n");
+    setInterval(() => {
+        currentIndex++;
+        if(currentIndex >= people.length){
+            currentIndex = 0;
+        }
+        showPerson(currentIndex);
+    }, 15000); // đổi người mỗi 15 giây
+
+});
+
+function showPerson(index){
+
+    const lines = people[index].trim().split("\n");
     let image = "";
     let content = "";
-lines.forEach(line=>{
-    if(line.startsWith("anh:")){
-        image = line.replace("anh:","").trim();
-    } 
-    else if(!line.startsWith("ten:")){
-        
-        if(line.includes(":")){
+
+    lines.forEach(line=>{
+        if(line.startsWith("anh:")){
+            image = line.replace("anh:","").trim();
+        } else if(line.includes(":")){
             const parts = line.split(":");
             content += "<span class='label'>" + parts[0] + ":</span> " +
                        "<span class='value'>" + parts.slice(1).join(":") + "</span><br>";
-        } else {
-            content += line + "<br>";
         }
-
-    }
-});
+    });
 
     document.getElementById("photo").src = image + "?v=" + Date.now();
     document.getElementById("data").innerHTML = content;
 
-})
-.catch(()=>{
-    document.getElementById("data").innerHTML = "KHÔNG TÌM THẤY FILE";
-});
+}
 
 </script>
 
 </body>
 
 </html>
+
 
 
 
