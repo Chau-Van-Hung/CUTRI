@@ -69,6 +69,13 @@ body{
         line-height:60px;
     }
 }
+    .label{
+    color:#ffd60a; /* màu trước dấu : */
+}
+
+.value{
+    color:#00b4d8; /* màu sau dấu : */
+}
 </style>
 </head>
 
@@ -117,7 +124,13 @@ fetch("thongtin.txt")
         if(line.startsWith("anh:")){
             image = line.replace("anh:","").trim();
         } else if(!line.startsWith("ten:")){
-            content += line + "<br>";
+            if(line.includes(":")){
+    const parts = line.split(":");
+    content += "<span class='label'>" + parts[0] + ":</span> " +
+               "<span class='value'>" + parts.slice(1).join(":") + "</span><br>";
+} else {
+    content += line + "<br>";
+}
         }
     });
 
@@ -134,6 +147,7 @@ fetch("thongtin.txt")
 </body>
 
 </html>
+
 
 
 
