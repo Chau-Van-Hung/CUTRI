@@ -5,7 +5,7 @@ Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Cao đẳng chuyên ngành Phật học
 Học hàm, học vị: Không
 Lý luận chính trị: Không
-Nghề nghiệp chức vụ: Tu sĩ Phật giáo
+Nghề nghiệp chức vụ: Tu sĩ Phật giáo, Trụ trì
 ===
 anh: DINHTHINGADUNG.jpg
 Họ và tên: ĐINH THỊ NGÃ DUNG
@@ -13,7 +13,7 @@ Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Tiểu học
 Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp
-Nghề nghiệp chức vụ: Viên chức, Giáo viên
+Nghề nghiệp chức vụ: Viên chức, Hiệu trưởng
 ===
 anh: DINHVIETTRUNG.jpg
 Họ và tên: ĐINH VIỆT TRUNG
@@ -21,7 +21,7 @@ Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý Nhà nước về An ninh trật tự
 Học hàm, học vị: Không
 Lý luận chính trị: Cao cấp
-Nghề nghiệp chức vụ: Công an nhân dân
+Nghề nghiệp chức vụ: Công an nhân dân, Trưởng Công an xã
 ===
 anh: DUONGTHANHTRI.jpg
 Họ và tên: DƯƠNG THÀNH TRÍ
@@ -29,7 +29,7 @@ Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp
-Nghề nghiệp chức vụ: Cán bộ    
+Nghề nghiệp chức vụ: Cán bộ, Phó trưởng Ban Kinh tế - Ngân sách Hội đồng nhân dân xã
 ===
 anh: LETHILI.jpg
 Họ và tên: LÊ THỊ LI
@@ -101,7 +101,7 @@ Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học Cảnh sát nhân dân
 Học hàm, học vị: Không
 Lý luận chính trị: Không
-Nghề nghiệp chức vụ: Công an nhân dân
+Nghề nghiệp chức vụ: Công an nhân dân, Thiếu tá – cán bộ
 ===
 anh: NGUYENTHIHONGPHUONG.jpg
 Họ và tên: NGUYỄN THỊ HỒNG PHƯƠNG
@@ -207,13 +207,13 @@ Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp
 Nghề nghiệp chức vụ: Cán bộ, Phó trưởng Ban Văn hóa – Xã Hội, Hội đồng nhân dân xã
 ===
-anh: TRANTHIHOANGHUYEN.jpg
-Họ và tên: TRẦN THỊ HOÀNG HUYÊN
+anh: NGUYENTHIHOI.jpg
+Họ và tên: NGUYỄN THỊ HỢI
 Trình độ học vấn: 12/12
-Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
-Học hàm, học vị: Thạc sĩ chuyên ngành Luật 
+Chuyên môn nghiệp vụ: Đại học sư phạm – khoa ngữ văn 
+Học hàm, học vị: Không 
 Lý luận chính trị: Trung cấp
-Nghề nghiệp chức vụ: Công chức, Ủy viên Ủy ban kiểm tra Đảng ủy xã
+Nghề nghiệp chức vụ: Người hoạt động không chuyên trách thôn, Bí thư chi bộ thôn An Dưỡng
 ===
 anh: TRANTHIHONGNHUNG.jpg
 Họ và tên: TRẦN THỊ HỒNG NHUNG
@@ -247,21 +247,13 @@ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
 Lý luận chính trị: Cao cấp
 Nghề nghiệp chức vụ: Cán bộ, Chủ tịch UBND xã
 ===
-anh: TRUONGTHIKIMTHOA.jpg
-Họ và tên: TRƯƠNG THỊ KIM THOA
-Trình độ học vấn: 12/12
-Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý văn hóa
-Học hàm, học vị: Không
-Lý luận chính trị: Sơ cấp
-Nghề nghiệp chức vụ: Công chức, Chuyên viên
-===
 anh: VOTHIMYNAM.jpg
 Họ và tên: VÕ THỊ MỸ NAM
 Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục mần non
 Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp
-Nghề nghiệp chức vụ: Viên chức, Giáo viên
+Nghề nghiệp chức vụ: Viên chức, Hiệu trưởng
 ===
 anh: VOVANTRUONG.jpg
 Họ và tên: VÕ VĂN TRƯỜNG
@@ -303,16 +295,10 @@ Học hàm, học vị: Không
 Lý luận chính trị: Không
 Nghề nghiệp chức vụ: Kinh doanh, Giám đốc
 ===
-anh: TRANNGOCNHI.jpg
+anh: TRANTHINGOCNHI.jpg
 Họ và tên: TRẦN NGỌC NHI
 Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp 
-Nghề nghiệp chức vụ: Người hoạt động không chuyên trách xã
-
-
-
-
-
-
+Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã
