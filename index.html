@@ -23,6 +23,7 @@ body{
     display:flex;
 }
 
+/* ẢNH */
 .left{
     width:33%;
     background:#001d3d;
@@ -39,6 +40,7 @@ body{
     transition: transform 20s linear, opacity 0.5s ease;
 }
 
+/* BÊN CHỮ */
 .right{
     width:67%;
     position:relative;
@@ -62,12 +64,22 @@ body{
     }
 }
 
+/* KHÔNG đặt màu ở .info nữa */
 .info{
     font-size:36px;
     line-height:70px;
     font-weight:bold;
-    color:#ffd60a;
-    text-shadow:0 0 15px #ffc300;
+    text-shadow:0 0 15px rgba(255,255,255,0.3);
+}
+
+/* TRƯỚC DẤU : */
+.label{
+    color:#ffd60a;   /* vàng */
+}
+
+/* SAU DẤU : */
+.value{
+    color:#00b4d8;   /* xanh */
 }
 
 @media (max-width: 768px){
@@ -75,14 +87,6 @@ body{
         font-size:28px;
         line-height:55px;
     }
-}
-
-.label{
-    color:#ffd60a;
-}
-
-.value{
-    color:#00b4d8;
 }
 
 </style>
@@ -115,10 +119,8 @@ let duration = 30000; // 30 giây mỗi người
 fetch("thongtin.txt?v=" + Date.now())
 .then(res => res.text())
 .then(text => {
-
     people = text.split("===").filter(b => b.trim() !== "");
     showPerson(currentIndex);
-
 });
 
 function showPerson(index){
@@ -140,27 +142,33 @@ function showPerson(index){
     const img = document.getElementById("photo");
     const scrollDiv = document.getElementById("scroll");
 
-    // Fade ảnh
     img.style.opacity = 0;
 
     setTimeout(()=>{
         img.src = image + "?v=" + Date.now();
         img.style.opacity = 1;
-
-        // Zoom nhẹ
         img.style.transform = "scale(1.08)";
     },300);
 
-    // Reset zoom
     setTimeout(()=>{
         img.style.transform = "scale(1)";
     }, duration);
 
     document.getElementById("data").innerHTML = content;
 
-    // Reset animation chữ
     scrollDiv.style.animation = "none";
     scrollDiv.offsetHeight;
     scrollDiv.style.animation = `scrollUp ${duration/1000}s linear`;
+    setTimeout(()=>{
+        currentIndex++;
+        if(currentIndex >= people.length){
+            currentIndex = 0;
+        }
+        showPerson(currentIndex);
+    }, duration);
+}
 
-    // Chuyển người sau khi chạy xong
+</script>
+
+</body>
+</html>
