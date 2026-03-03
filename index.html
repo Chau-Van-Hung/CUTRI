@@ -36,6 +36,7 @@ body{
     max-height:85%;
     border:6px solid white;
     box-shadow:0 0 25px #00b4d8;
+    transition: transform 20s linear, opacity 0.5s ease;
 }
 
 .right{
@@ -48,12 +49,17 @@ body{
 .scroll{
     position:absolute;
     width:85%;
-    animation:scrollUp 15s linear infinite;
+    top:50%;
+    transform:translateY(-50%);
 }
 
 @keyframes scrollUp{
-    0%{ transform:translateY(-50%); }
-    100%{ transform:translateY(-150%); }
+    0%{
+        transform:translateY(-50%);
+    }
+    100%{
+        transform:translateY(-150%);
+    }
 }
 
 .info{
@@ -63,19 +69,22 @@ body{
     color:#ffd60a;
     text-shadow:0 0 15px #ffc300;
 }
-    @media (max-width: 768px){
+
+@media (max-width: 768px){
     .info{
-        font-size:32px;
-        line-height:60px;
+        font-size:28px;
+        line-height:55px;
     }
 }
-    .label{
-    color:#ffd60a; /* màu trước dấu : */
+
+.label{
+    color:#ffd60a;
 }
 
 .value{
-    color:#00b4d8; /* màu sau dấu : */
+    color:#00b4d8;
 }
+
 </style>
 </head>
 
@@ -88,7 +97,7 @@ body{
     </div>
 
     <div class="right">
-        <div class="scroll">
+        <div class="scroll" id="scroll">
             <div class="info" id="data">
                 ĐANG TẢI...
             </div>
@@ -101,7 +110,7 @@ body{
 
 let currentIndex = 0;
 let people = [];
-let duration = 30000; // 30 giây
+let duration = 30000; // 30 giây mỗi người
 
 fetch("thongtin.txt?v=" + Date.now())
 .then(res => res.text())
@@ -129,66 +138,29 @@ function showPerson(index){
     });
 
     const img = document.getElementById("photo");
+    const scrollDiv = document.getElementById("scroll");
 
-    // fade ảnh
+    // Fade ảnh
     img.style.opacity = 0;
 
     setTimeout(()=>{
         img.src = image + "?v=" + Date.now();
         img.style.opacity = 1;
 
-        // zoom nhẹ
+        // Zoom nhẹ
         img.style.transform = "scale(1.08)";
     },300);
 
-    // reset zoom mỗi lần đổi người
+    // Reset zoom
     setTimeout(()=>{
         img.style.transform = "scale(1)";
     }, duration);
 
     document.getElementById("data").innerHTML = content;
 
-    // reset animation chữ
-    const scrollDiv = document.querySelector(".scroll");
+    // Reset animation chữ
     scrollDiv.style.animation = "none";
     scrollDiv.offsetHeight;
     scrollDiv.style.animation = `scrollUp ${duration/1000}s linear`;
 
-    // chuyển người
-    setTimeout(()=>{
-        currentIndex++;
-        if(currentIndex >= people.length){
-            currentIndex = 0;
-        }
-        showPerson(currentIndex);
-    }, duration);
-}
-/* ẢNH ZOOM NHẸ */
-.left img{
-    transition: transform 15s linear, opacity 0.5s ease;
-}
-
-/* Nội dung bắt đầu giữa màn hình */
-.scroll{
-    position:absolute;
-    width:85%;
-    top:50%;
-    transform:translateY(-50%);
-}
-</script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
+    // Chuyển người sau khi chạy xong
