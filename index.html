@@ -52,8 +52,8 @@ body{
 }
 
 @keyframes scrollUp{
-    0%{ transform:translateY(1%); }
-    100%{ transform:translateY(-100%); }
+    0%{ transform:translateY(-50%); }
+    100%{ transform:translateY(-150%); }
 }
 
 .info{
@@ -101,22 +101,14 @@ body{
 
 let currentIndex = 0;
 let people = [];
+let duration = 30000; // 30 giây
 
 fetch("thongtin.txt?v=" + Date.now())
 .then(res => res.text())
 .then(text => {
 
     people = text.split("===").filter(b => b.trim() !== "");
-
     showPerson(currentIndex);
-
-    setInterval(() => {
-        currentIndex++;
-        if(currentIndex >= people.length){
-            currentIndex = 0;
-        }
-        showPerson(currentIndex);
-    }, 15000); // đổi người mỗi 15 giây
 
 });
 
@@ -136,16 +128,59 @@ function showPerson(index){
         }
     });
 
-    document.getElementById("photo").src = image + "?v=" + Date.now();
+    const img = document.getElementById("photo");
+
+    // fade ảnh
+    img.style.opacity = 0;
+
+    setTimeout(()=>{
+        img.src = image + "?v=" + Date.now();
+        img.style.opacity = 1;
+
+        // zoom nhẹ
+        img.style.transform = "scale(1.08)";
+    },300);
+
+    // reset zoom mỗi lần đổi người
+    setTimeout(()=>{
+        img.style.transform = "scale(1)";
+    }, duration);
+
     document.getElementById("data").innerHTML = content;
 
+    // reset animation chữ
+    const scrollDiv = document.querySelector(".scroll");
+    scrollDiv.style.animation = "none";
+    scrollDiv.offsetHeight;
+    scrollDiv.style.animation = `scrollUp ${duration/1000}s linear`;
+
+    // chuyển người
+    setTimeout(()=>{
+        currentIndex++;
+        if(currentIndex >= people.length){
+            currentIndex = 0;
+        }
+        showPerson(currentIndex);
+    }, duration);
+}
+/* ẢNH ZOOM NHẸ */
+.left img{
+    transition: transform 15s linear, opacity 0.5s ease;
 }
 
+/* Nội dung bắt đầu giữa màn hình */
+.scroll{
+    position:absolute;
+    width:85%;
+    top:50%;
+    transform:translateY(-50%);
+}
 </script>
 
 </body>
 
 </html>
+
 
 
 
