@@ -12,7 +12,7 @@ Họ và tên: ĐINH THỊ NGÃ DUNG
 Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Tiểu học
 Học hàm, học vị: Không
-Lý luận chính trị: Không
+Lý luận chính trị: Trung cấp
 Nghề nghiệp chức vụ: Viên chức, Giáo viên
 ===
 anh: DINHVIETTRUNG.jpg
@@ -20,7 +20,7 @@ Họ và tên: ĐINH VIỆT TRUNG
 Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý Nhà nước về An ninh trật tự
 Học hàm, học vị: Không
-Lý luận chính trị: Không
+Lý luận chính trị: Cao cấp
 Nghề nghiệp chức vụ: Công an nhân dân
 ===
 anh: DUONGTHANHTRI.jpg
@@ -28,7 +28,7 @@ Họ và tên: DƯƠNG THÀNH TRÍ
 Trình độ học vấn: 12/12
 Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 Học hàm, học vị: Không
-Lý luận chính trị: Không
+Lý luận chính trị: Trung cấp
 Nghề nghiệp chức vụ: Cán bộ    
 ===
 anh: LETHILI.jpg
@@ -310,6 +310,7 @@ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 Học hàm, học vị: Không
 Lý luận chính trị: Trung cấp 
 Nghề nghiệp chức vụ: Người hoạt động không chuyên trách xã
+
 
 
 
