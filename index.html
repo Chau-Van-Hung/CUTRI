@@ -119,20 +119,22 @@ fetch("thongtin.txt")
     const lines = blocks[id].trim().split("\n");
     let image = "";
     let content = "";
-
-    lines.forEach(line=>{
-        if(line.startsWith("anh:")){
-            image = line.replace("anh:","").trim();
-        } else if(!line.startsWith("ten:")){
-            if(line.includes(":")){
-    const parts = line.split(":");
-    content += "<span class='label'>" + parts[0] + ":</span> " +
-               "<span class='value'>" + parts.slice(1).join(":") + "</span><br>";
-} else {
-    content += line + "<br>";
-}
+lines.forEach(line=>{
+    if(line.startsWith("anh:")){
+        image = line.replace("anh:","").trim();
+    } 
+    else if(!line.startsWith("ten:")){
+        
+        if(line.includes(":")){
+            const parts = line.split(":");
+            content += "<span class='label'>" + parts[0] + ":</span> " +
+                       "<span class='value'>" + parts.slice(1).join(":") + "</span><br>";
+        } else {
+            content += line + "<br>";
         }
-    });
+
+    }
+});
 
     document.getElementById("photo").src = image;
     document.getElementById("data").innerHTML = content;
@@ -147,6 +149,7 @@ fetch("thongtin.txt")
 </body>
 
 </html>
+
 
 
 
