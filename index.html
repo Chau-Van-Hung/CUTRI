@@ -136,7 +136,7 @@ lines.forEach(line=>{
     }
 });
 
-    document.getElementById("photo").src = image;
+    document.getElementById("photo").src = image + "?v=" + Date.now();
     document.getElementById("data").innerHTML = content;
 
 })
@@ -149,6 +149,7 @@ lines.forEach(line=>{
 </body>
 
 </html>
+
 
 
 
