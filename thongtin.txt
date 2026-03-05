@@ -2,7 +2,6 @@ TIỂU SỬ TÓM TẮT CỦA NGƯỜI ỨNG CỬ ĐẠI BIỂU HỘI ĐỒNG NH�
 anh: NGUYENTHITHUHIEN.jpg
 ✓ Họ và tên: NGUYỄN THỊ THU HIỀN
 ✓ Ngày sinh: 17/09/1983
-✓ Ngày sinh: 
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Tin học, Đại học chuyên ngành Quản lý Nhà nước
 ✓ Học hàm, học vị: Không
@@ -341,4 +340,5 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
