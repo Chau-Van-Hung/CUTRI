@@ -47,7 +47,7 @@ anh: NGUYENTHAIHAU.jpg
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Chủ tịch Ủy ban Mặt trận Tổ quốc Việt Nam xã
 ===
-anh: NGUYENTHIHOI.jpg
+anh: NGUYENTHIHOI1.jpg
 ✓ Họ và tên: NGUYỄN THỊ HỢI
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học sư phạm – khoa ngữ văn 
@@ -302,6 +302,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
