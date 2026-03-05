@@ -38,7 +38,7 @@ body{
     max-height:85%;
     border:6px solid white;
     box-shadow:0 0 25px #00b4d8;
-    transition: transform 20s linear, opacity 0.5s ease;
+    transition: opacity 0.8s ease, transform 20s linear;
 }
 
 /* BÊN CHỮ */
@@ -160,13 +160,17 @@ function showPerson(index){
     const img = document.getElementById("photo");
     const scrollDiv = document.getElementById("scroll");
 
-    img.style.opacity = 0;
+  img.style.opacity = 0;
 
-    setTimeout(()=>{
-        img.src = image + "?v=" + Date.now();
-        img.style.opacity = 1;
-        img.style.transform = "scale(1.08)";
-    },300);
+setTimeout(()=>{
+    img.src = image + "?v=" + Date.now();
+    img.style.transform = "scale(1.08)";
+},500);
+
+setTimeout(()=>{
+    img.style.opacity = 1;
+},600);
+
 
     setTimeout(()=>{
         img.style.transform = "scale(1)";
@@ -190,6 +194,7 @@ function showPerson(index){
 
 </body>
 </html>
+
 
 
 
