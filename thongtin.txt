@@ -1,6 +1,8 @@
 TIỂU SỬ TÓM TẮT CỦA NGƯỜI ỨNG CỬ ĐẠI BIỂU HỘI ĐỒNG NHÂN DÂN XÃ THĂNG ĐIỀN NHIỆM KỲ 2026-2031
 anh: NGUYENTHITHUHIEN.jpg
 ✓ Họ và tên: NGUYỄN THỊ THU HIỀN
+✓ Ngày sinh: 17/09/1983
+✓ Ngày sinh: 
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Tin học, Đại học chuyên ngành Quản lý Nhà nước
 ✓ Học hàm, học vị: Không
@@ -9,6 +11,7 @@ anh: NGUYENTHITHUHIEN.jpg
 ===
 anh: NGUYENTHITHUYNGAN.jpg
 ✓ Họ và tên: NGUYỄN THỊ THÙY NGÂN
+✓ Ngày sinh: 25/11/1998
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Vật Lý
 ✓ Học hàm, học vị: Không
@@ -17,6 +20,7 @@ anh: NGUYENTHITHUYNGAN.jpg
 ===
 anh: NGUYENTHIHONGPHUONG.jpg
 ✓ Họ và tên: NGUYỄN THỊ HỒNG PHƯƠNG
+✓ Ngày sinh: 21/09/1984
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 ✓ Học hàm, học vị: Không
@@ -25,6 +29,7 @@ anh: NGUYENTHIHONGPHUONG.jpg
 ===
 anh: TRUONGCONGSON.jpg
 ✓ Họ và tên: TRƯƠNG CÔNG SƠN
+✓ Ngày sinh: 06/05/1979
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế phát triển 
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
@@ -33,6 +38,7 @@ anh: TRUONGCONGSON.jpg
 ===
 anh: NGUYENVUVIET.jpg
 ✓ Họ và tên: NGUYỄN VŨ VIỆT
+✓ Ngày sinh: 21/04/1995
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý đất đai
 ✓ Học hàm, học vị: Không
@@ -41,6 +47,7 @@ anh: NGUYENVUVIET.jpg
 ===
 anh: NGUYENTHAIHAU.jpg
 ✓ Họ và tên: NGUYỄN THÁI HẬU
+✓ Ngày sinh: 03/06/1981
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế-Chính trị
 ✓ Học hàm, học vị: Không
@@ -49,6 +56,7 @@ anh: NGUYENTHAIHAU.jpg
 ===
 anh: NGUYENTHIHOI1.jpg
 ✓ Họ và tên: NGUYỄN THỊ HỢI
+✓ Ngày sinh: 20/10/1959
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học sư phạm – khoa ngữ văn 
 ✓ Học hàm, học vị: Không 
@@ -57,6 +65,7 @@ anh: NGUYENTHIHOI1.jpg
 ===
 anh: NGUYENTHIVIETNGA.jpg
 ✓ Họ và tên: NGUYỄN THỊ VIỆT NGA
+✓ Ngày sinh: 07/03/1988
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kế toán
 ✓ Học hàm, học vị: Không
@@ -65,6 +74,7 @@ anh: NGUYENTHIVIETNGA.jpg
 ===
 anh: NGUYENTHITHANHNHAN.jpg
 ✓ Họ và tên: NGUYỄN THỊ THANH NHÀN
+✓ Ngày sinh: 15/09/1998
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh doanh nông nghiệp
 ✓ Học hàm, học vị: Không
@@ -73,6 +83,7 @@ anh: NGUYENTHITHANHNHAN.jpg
 ===
 anh: VUONGDINHTHIN.jpg
 ✓ Họ và tên: VƯƠNG ĐÌNH THÌN
+✓ Ngày sinh: 07/08/1988
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 ✓ Học hàm, học vị: Không
@@ -81,6 +92,7 @@ anh: VUONGDINHTHIN.jpg
 ===
 anh: PHAMHOANGPHU.jpg
 ✓ Họ và tên: PHẠM HOÀNG PHÚ
+✓ Ngày sinh: 15/09/1980
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Xây dựng cầu đường
 ✓ Học hàm, học vị: Không
@@ -89,6 +101,7 @@ anh: PHAMHOANGPHU.jpg
 ===
 anh: NGOTHANHTAI.jpg
 ✓ Họ và tên: NGÔ THANH TÀI
+✓ Ngày sinh: 26/02/1989
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Công nghệ sinh học
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Sinh học thực nghiệm
@@ -97,6 +110,7 @@ anh: NGOTHANHTAI.jpg
 ===
 anh: NGUYENTHITUYETTHANH.jpg
 ✓ Họ và tên: NGUYỄN THỊ TUYẾT THANH
+✓ Ngày sinh: 15/11/1978
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học Sư phạm chuyên ngành Lịch sử
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Lịch sử Việt Nam
@@ -105,6 +119,7 @@ anh: NGUYENTHITUYETTHANH.jpg
 ===
 anh: DUONGTHANHTRI.jpg
 ✓ Họ và tên: DƯƠNG THÀNH TRÍ
+✓ Ngày sinh: 01/10/1981
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 ✓ Học hàm, học vị: Không
@@ -113,6 +128,7 @@ anh: DUONGTHANHTRI.jpg
 ===
 anh: VOVANTRUONG.jpg
 ✓ Họ và tên: VÕ VĂN TRƯỜNG
+✓ Ngày sinh: 21/11/1989
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục thể chất
 ✓ Học hàm, học vị: Không
@@ -121,6 +137,7 @@ anh: VOVANTRUONG.jpg
 ===
 anh: NGUYENTANCHIEN.jpg
 ✓ Họ và tên: NGUYỄN TẤN CHIẾN
+✓ Ngày sinh: 20/01/1982
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế chính trị
 ✓ Học hàm, học vị: Thạc sỹ chuyên ngành Quản lý kinh tế
@@ -129,6 +146,7 @@ anh: NGUYENTANCHIEN.jpg
 ===
 anh: VOTHIMYNAM.jpg
 ✓ Họ và tên: VÕ THỊ MỸ NAM
+✓ Ngày sinh: 03/10/1979
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Mầm non
 ✓ Học hàm, học vị: Không
@@ -137,6 +155,7 @@ anh: VOTHIMYNAM.jpg
 ===
 anh: TRANTHIHONGNHUNG.jpg
 ✓ Họ và tên: TRẦN THỊ HỒNG NHUNG
+✓ Ngày sinh: 02/07/1996
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Mầm non
 ✓ Học hàm, học vị: Không
@@ -145,6 +164,7 @@ anh: TRANTHIHONGNHUNG.jpg
 ===
 anh: TRANTHIHUYENTRAN.jpg
 ✓ Họ và tên: TRẦN THỊ HUYỀN TRÂN
+✓ Ngày sinh: 03/08/1983
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Kỹ thuật nông nghiệp
 ✓ Học hàm, học vị: Không
@@ -153,6 +173,7 @@ anh: TRANTHIHUYENTRAN.jpg
 ===
 anh: TONGOCTUAN.jpg
 ✓ Họ và tên: TÔ NGỌC TUẤN
+✓ Ngày sinh: 01/01/1991
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Cao đẳng chuyên ngành Phật học
 ✓ Học hàm, học vị: Không
@@ -161,6 +182,7 @@ anh: TONGOCTUAN.jpg
 ===
 anh: NGOTHANHCONG.jpg
 ✓ Họ và tên: NGÔ THÀNH CÔNG
+✓ Ngày sinh: 27/07/1982
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế - chính trị
 ✓ Học hàm, học vị: Không
@@ -169,6 +191,7 @@ anh: NGOTHANHCONG.jpg
 ===
 anh: LETANKHANH.jpg
 ✓ Họ và tên: LÊ TẤN KHÁNH
+✓ Ngày sinh: 12/06/1965
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Sơ cấp chuyên ngành Cơ yếu
 ✓ Học hàm, học vị: Không
@@ -177,6 +200,7 @@ anh: LETANKHANH.jpg
 ===
 anh: NGOTHILOC.jpg
 ✓ Họ và tên: NGÔ THỊ LỘC
+✓ Ngày sinh: 20/10/1989
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kế toán
 ✓ Học hàm, học vị: Không
@@ -185,6 +209,7 @@ anh: NGOTHILOC.jpg
 ===
 anh: NGUYENTHIHOANGSA.jpg
 ✓ Họ và tên: NGUYỄN THỊ HOÀNG SA
+✓ Ngày sinh: 31/07/1987
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học Cảnh sát nhân dân
 ✓ Học hàm, học vị: Không
@@ -193,6 +218,7 @@ anh: NGUYENTHIHOANGSA.jpg
 ===
 anh: DINHVIETTRUNG.jpg
 ✓ Họ và tên: ĐINH VIỆT TRUNG
+✓ Ngày sinh: 16/10/1978
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý Nhà nước về An ninh trật tự
 ✓ Học hàm, học vị: Không
@@ -201,6 +227,7 @@ anh: DINHVIETTRUNG.jpg
 ===
 anh: NGUYENVANDONG.jpg
 ✓ Họ và tên: NGUYỄN VĂN ĐÔNG
+✓ Ngày sinh: 10/02/1976
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Tin học
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
@@ -209,6 +236,7 @@ anh: NGUYENVANDONG.jpg
 ===
 anh: DINHTHINGADUNG.jpg
 ✓ Họ và tên: ĐINH THỊ NGÃ DUNG
+✓ Ngày sinh: 28/11/1981
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Tiểu học
 ✓ Học hàm, học vị: Không
@@ -217,6 +245,7 @@ anh: DINHTHINGADUNG.jpg
 ===
 anh: LETHILI.jpg
 ✓ Họ và tên: LÊ THỊ LI
+✓ Ngày sinh: 28/10/1985
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế chính trị
 ✓ Học hàm, học vị: Không
@@ -225,6 +254,7 @@ anh: LETHILI.jpg
 ===
 anh: NGUYENTRONGLINH.jpg
 ✓ Họ và tên: NGUYỄN TRỌNG LĨNH
+✓ Ngày sinh: 10/11/1984
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Lịch sử
 ✓ Học hàm, học vị: Không
@@ -233,6 +263,7 @@ anh: NGUYENTRONGLINH.jpg
 ===
 anh: PHANTHIKIMNGUYET.jpg
 ✓ Họ và tên: PHAN THỊ KIM NGUYỆT
+✓ Ngày sinh: 25/12/1984
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Trung cấp chuyên ngành Kế toán
 ✓ Học hàm, học vị: Không
@@ -241,6 +272,7 @@ anh: PHANTHIKIMNGUYET.jpg
 ===
 anh: NGUYENPHAMMINHTRI.jpg
 ✓ Họ và tên: NGUYỄN PHẠM MINH TRÍ
+✓ Ngày sinh: 07/09/1981
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Nông lâm
 ✓ Học hàm, học vị: Không
@@ -249,6 +281,7 @@ anh: NGUYENPHAMMINHTRI.jpg
 ===
 anh: NGUYENMINHTRIEU.jpg
 ✓ Họ và tên: NGUYỄN MINH TRIỀU
+✓ Ngày sinh: 30/12/1987
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học Quân sự
 ✓ Học hàm, học vị: Không
@@ -257,6 +290,7 @@ anh: NGUYENMINHTRIEU.jpg
 ===
 anh: NGOVANTRONG.jpg
 ✓ Họ và tên: NGÔ VĂN TRỌNG
+✓ Ngày sinh: 21/12/1991
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Trung cấp chuyên ngành Quân sự
 ✓ Học hàm, học vị: Không
@@ -265,6 +299,7 @@ anh: NGOVANTRONG.jpg
 ===
 anh: TRINHXUANA.jpg
 ✓ Họ và tên: TRỊNH XUÂN A
+✓ Ngày sinh: 01/01/1965
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Phát triển kinh tế
 ✓ Học hàm, học vị: Không
@@ -273,6 +308,7 @@ anh: TRINHXUANA.jpg
 ===
 anh: TRANTHINGOCNHI.jpg
 ✓ Họ và tên: TRẦN NGỌC NHI
+✓ Ngày sinh: 15/08/1985
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 ✓ Học hàm, học vị: Không
@@ -281,6 +317,7 @@ anh: TRANTHINGOCNHI.jpg
 ===
 anh: TRANNGOCPHUOC.jpg
 ✓ Họ và tên: TRẦN NGỌC PHƯỚC
+✓ Ngày sinh: 28/02/1981
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Quản lý văn hóa
 ✓ Học hàm, học vị: Không
@@ -289,6 +326,7 @@ anh: TRANNGOCPHUOC.jpg
 ===
 anh: NGUYENTHIPHUONGTHAO.jpg
 ✓ Họ và tên: NGUYỄN THỊ PHƯƠNG THẢO
+✓ Ngày sinh: 28/08/1991
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế phát triển
 ✓ Học hàm, học vị: Không
@@ -297,8 +335,10 @@ anh: NGUYENTHIPHUONGTHAO.jpg
 ===
 anh: NGUYENDINHTU.jpg
 ✓ Họ và tên: NGUYỄN ĐÌNH TƯ
+✓ Ngày sinh: 11/06/1974
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Công trình thủy lợi
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
