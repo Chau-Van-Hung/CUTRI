@@ -255,22 +255,8 @@ newImg.src=image+"?v="+Date.now();
 
 newImg.onload=function(){
 
-img.style.opacity = 0;
 
-setTimeout(()=>{
-    img.src = image + "?v=" + Date.now();
-    img.style.transform = "scale(1.08)";
-},500);
-
-setTimeout(()=>{
-    img.style.opacity = 1;
-},600);
-
-setTimeout(()=>{
-    img.style.transform = "scale(1)";
-}, duration);
-
-/*img.style.opacity=0;
+img.style.opacity=0;
 
 
 setTimeout(()=>{
@@ -283,16 +269,16 @@ img.style.opacity=1;
 
 },400);
 
-};*/
+};
 
 
 /* zoom chậm */
 
-/*setTimeout(()=>{
+setTimeout(()=>{
 
 img.style.transform="scale(1)";
 
-},duration);*/
+},duration);
 
 /* chữ chạy */
 
@@ -323,6 +309,7 @@ showPerson(currentIndex);
 
 </body>
 </html>
+
 
 
 
