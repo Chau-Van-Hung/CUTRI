@@ -5,6 +5,7 @@
 <title>Thông Tin</title>
 
 <style>
+
 *{
     box-sizing:border-box;
     margin:0;
@@ -12,10 +13,22 @@
 }
 
 body{
-    background: url("anhnen.jpg") no-repeat center center fixed;
-    background-size: cover;
-    font-family:Arial;
+    background:url("anhnen.jpg") no-repeat center center fixed;
+    background-size:cover;
+    font-family:Segoe UI, Arial, sans-serif;
     overflow:hidden;
+}
+
+/* lớp làm nền tối */
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.45);
+    z-index:-1;
 }
 
 .container{
@@ -24,7 +37,8 @@ body{
     display:flex;
 }
 
-/* ẢNH */
+/* CỘT ẢNH */
+
 .left{
     width:33%;
     background:#001d3d;
@@ -34,77 +48,102 @@ body{
 }
 
 .left img{
+
     max-width:85%;
     max-height:85%;
+
     border:6px solid white;
-    box-shadow:0 0 25px #00b4d8;
-    transition: opacity 0.8s ease, transform 20s linear;
+
+    box-shadow:0 0 30px #00b4d8;
+
+    opacity:0;
+
+    transition:
+        opacity 1s ease,
+        transform 18s linear;
+
 }
 
-/* BÊN CHỮ */
+
+/* CỘT CHỮ */
+
 .right{
+
     width:67%;
+
     position:relative;
+
     overflow:hidden;
+
     padding-left:60px;
+
 }
 
 .scroll{
+
     position:absolute;
+
     width:85%;
+
     top:50%;
+
     transform:translateY(-50%);
+
 }
 
+
 @keyframes scrollUp{
+
     0%{
         transform:translateY(100%);
     }
+
     100%{
         transform:translateY(-150%);
     }
+
 }
 
-/* KHÔNG đặt màu ở .info nữa */
+
+/* NỘI DUNG */
+
 .info{
+
     font-size:36px;
+
     line-height:70px;
+
     font-weight:bold;
-    text-shadow:0 0 15px rgba(255,255,255,0.3);
+
+    text-shadow:0 0 15px rgba(255,255,255,0.25);
+
 }
 
-/* TRƯỚC DẤU : */
+
 .label{
-    color:#ffffff;
-    text-shadow:0 0 12px rgba(0,0,0,0.8);
+
+    color:white;
+
 }
 
-/* SAU DẤU : */
-.label{
-    color:#ffffff;
-    text-shadow:0 0 12px rgba(0,0,0,0.8);
-}
 
 .value{
-    color:#004aad;
-    text-shadow:0 0 12px rgba(0,0,0,0.8);
+
+    color:#3ea6ff;
+
 }
 
-@media (max-width: 768px){
-    .info{
-        font-size:28px;
-        line-height:55px;
-    }
+
+@media (max-width:768px){
+
+.info{
+
+    font-size:28px;
+
+    line-height:55px;
+
 }
-body::before{
-    content:"";
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.5);
-    z-index:-1;
+
 }
 
 </style>
@@ -114,93 +153,151 @@ body::before{
 
 <div class="container">
 
-    <div class="left">
-        <img id="photo" src="">
-    </div>
+<div class="left">
 
-    <div class="right">
-        <div class="scroll" id="scroll">
-            <div class="info" id="data">
-                ĐANG TẢI...
-            </div>
-        </div>
-    </div>
+<img id="photo">
+
+</div>
+
+<div class="right">
+
+<div class="scroll" id="scroll">
+
+<div class="info" id="data">
+
+ĐANG TẢI...
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 
 <script>
 
 let currentIndex = 0;
+
 let people = [];
-let duration = 15000; // 30 giây mỗi người
+
+let duration = 15000;
+
 
 fetch("thongtin.txt?v=" + Date.now())
-.then(res => res.text())
-.then(text => {
-    people = text.split("===").filter(b => b.trim() !== "");
-    showPerson(currentIndex);
+
+.then(res=>res.text())
+
+.then(text=>{
+
+people = text.split("===")
+
+.filter(p=>p.trim()!="");
+
+showPerson(0);
+
 });
+
 
 function showPerson(index){
 
-    const lines = people[index].trim().split("\n");
-    let image = "";
-    let content = "";
+const lines = people[index].trim().split("\n");
 
-    lines.forEach(line=>{
-        if(line.startsWith("anh:")){
-            image = line.replace("anh:","").trim();
-        } else if(line.includes(":")){
-            const parts = line.split(":");
-            content += "<span class='label'>" + parts[0] + ":</span> " +
-                       "<span class='value'>" + parts.slice(1).join(":") + "</span><br>";
-        }
-    });
+let image="";
 
-    const img = document.getElementById("photo");
-    const scrollDiv = document.getElementById("scroll");
+let content="";
 
-  img.style.opacity = 0;
+
+lines.forEach(line=>{
+
+if(line.startsWith("anh:")){
+
+image=line.replace("anh:","").trim();
+
+}
+
+else if(line.includes(":")){
+
+let parts=line.split(":");
+
+content+=
+
+"<span class='label'>"+parts[0]+":</span> "+
+
+"<span class='value'>"+parts.slice(1).join(":")+"</span><br>";
+
+}
+
+});
+
+
+const img=document.getElementById("photo");
+
+const scrollDiv=document.getElementById("scroll");
+
+document.getElementById("data").innerHTML=content;
+
+
+/* LOAD ẢNH TRƯỚC */
+
+let newImg=new Image();
+
+newImg.src=image+"?v="+Date.now();
+
+
+newImg.onload=function(){
+
+img.style.opacity=0;
+
 
 setTimeout(()=>{
-    img.src = image + "?v=" + Date.now();
-    img.style.transform = "scale(1.08)";
-},500);
+
+img.src=newImg.src;
+
+img.style.transform="scale(1.08)";
+
+img.style.opacity=1;
+
+},400);
+
+};
+
+
+/* zoom chậm */
 
 setTimeout(()=>{
-    img.style.opacity = 1;
-},600);
+
+img.style.transform="scale(1)";
+
+},duration);
 
 
-    setTimeout(()=>{
-        img.style.transform = "scale(1)";
-    }, duration);
+/* chữ chạy */
 
-    document.getElementById("data").innerHTML = content;
+scrollDiv.style.animation="none";
 
-    scrollDiv.style.animation = "none";
-    scrollDiv.offsetHeight;
-    scrollDiv.style.animation = `scrollUp ${duration/1000}s linear`;
-    setTimeout(()=>{
-        currentIndex++;
-        if(currentIndex >= people.length){
-            currentIndex = 0;
-        }
-        showPerson(currentIndex);
-    }, duration);
+scrollDiv.offsetHeight;
+
+scrollDiv.style.animation="scrollUp "+(duration/1000)+"s linear";
+
+
+setTimeout(()=>{
+
+currentIndex++;
+
+if(currentIndex>=people.length){
+
+currentIndex=0;
+
+}
+
+showPerson(currentIndex);
+
+},duration);
+
 }
 
 </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
