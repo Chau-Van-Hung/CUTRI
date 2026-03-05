@@ -20,7 +20,7 @@ anh: NGUYENTHIHONGPHUONG.jpg
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
 ✓ Học hàm, học vị: Không
-✓ luận chính trị: Không
+✓ Lý luận chính trị: Không
 ✓ Nghề nghiệp chức vụ: Công chức, Trưởng Ban Xây dựng Đảng, Đảng ủy xã; kiêm Trưởng Ban Kinh tế-Ngân sách, HĐND xã
 ===
 anh: TRUONGCONGSON.jpg
@@ -302,6 +302,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
