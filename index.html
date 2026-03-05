@@ -19,7 +19,8 @@ body{
     overflow:hidden;
 }
 
-/* lớp làm nền tối */
+/* làm nền tối */
+
 body::before{
     content:"";
     position:fixed;
@@ -40,44 +41,41 @@ body::before{
 /* CỘT ẢNH */
 
 .left{
-    width:33%;
+    width:34%;
     background:#001d3d;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-/*.left img{
+/* KHUNG ẢNH CHUẨN */
 
-    max-width:85%;
-    max-height:85%;
+.left img{
+
+    width:450px;
+    height:600px;
+
+    object-fit:cover;
 
     border:6px solid white;
 
-    box-shadow:0 0 30px #00b4d8;
+    box-shadow:0 0 35px #00b4d8;
 
     opacity:0;
 
+    transform:scale(1);
+
     transition:
-        opacity 1s ease,
+        opacity 0.9s ease,
         transform 18s linear;
 
-}*/
-
-    .left img{
-    width:420px;
-    height:520px;
-    object-fit:cover;
-    border:6px solid white;
-    box-shadow:0 0 25px #00b4d8;
-    transition: opacity 0.8s ease, transform 20s linear;
 }
 
 /* CỘT CHỮ */
 
 .right{
 
-    width:67%;
+    width:66%;
 
     position:relative;
 
@@ -99,7 +97,6 @@ body::before{
 
 }
 
-
 @keyframes scrollUp{
 
     0%{
@@ -112,21 +109,21 @@ body::before{
 
 }
 
-
 /* NỘI DUNG */
 
 .info{
 
-    font-size:36px;
+    font-size:38px;
 
-    line-height:70px;
+    line-height:72px;
 
     font-weight:bold;
+
+    letter-spacing:1px;
 
     text-shadow:0 0 15px rgba(255,255,255,0.25);
 
 }
-
 
 .label{
 
@@ -134,13 +131,13 @@ body::before{
 
 }
 
-
 .value{
 
     color:#3ea6ff;
 
 }
 
+/* mobile */
 
 @media (max-width:768px){
 
@@ -162,9 +159,7 @@ body::before{
 <div class="container">
 
 <div class="left">
-
 <img id="photo">
-
 </div>
 
 <div class="right">
@@ -172,9 +167,7 @@ body::before{
 <div class="scroll" id="scroll">
 
 <div class="info" id="data">
-
 ĐANG TẢI...
-
 </div>
 
 </div>
@@ -191,7 +184,6 @@ let people = [];
 
 let duration = 15000;
 
-
 fetch("thongtin.txt?v=" + Date.now())
 
 .then(res=>res.text())
@@ -199,13 +191,11 @@ fetch("thongtin.txt?v=" + Date.now())
 .then(text=>{
 
 people = text.split("===")
-
 .filter(p=>p.trim()!="");
 
 showPerson(0);
 
 });
-
 
 function showPerson(index){
 
@@ -214,7 +204,6 @@ const lines = people[index].trim().split("\n");
 let image="";
 
 let content="";
-
 
 lines.forEach(line=>{
 
@@ -229,15 +218,12 @@ else if(line.includes(":")){
 let parts=line.split(":");
 
 content+=
-
 "<span class='label'>"+parts[0]+":</span> "+
-
 "<span class='value'>"+parts.slice(1).join(":")+"</span><br>";
 
 }
 
 });
-
 
 const img=document.getElementById("photo");
 
@@ -245,32 +231,27 @@ const scrollDiv=document.getElementById("scroll");
 
 document.getElementById("data").innerHTML=content;
 
-
 /* LOAD ẢNH TRƯỚC */
 
 let newImg=new Image();
 
 newImg.src=image+"?v="+Date.now();
 
-
 newImg.onload=function(){
 
-
 img.style.opacity=0;
-
 
 setTimeout(()=>{
 
 img.src=newImg.src;
 
-img.style.transform="scale(1.08)";
+img.style.transform="scale(1.06)";
 
 img.style.opacity=1;
 
-},400);
+},300);
 
 };
-
 
 /* zoom chậm */
 
@@ -288,15 +269,14 @@ scrollDiv.offsetHeight;
 
 scrollDiv.style.animation="scrollUp "+(duration/1000)+"s linear";
 
+/* chuyển người */
 
 setTimeout(()=>{
 
 currentIndex++;
 
 if(currentIndex>=people.length){
-
 currentIndex=0;
-
 }
 
 showPerson(currentIndex);
@@ -309,10 +289,3 @@ showPerson(currentIndex);
 
 </body>
 </html>
-
-
-
-
-
-
-
