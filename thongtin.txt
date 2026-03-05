@@ -130,7 +130,7 @@ anh: NGUYENTANCHIEN.jpg
 anh: VOTHIMYNAM.jpg
 ✓ Họ và tên: VÕ THỊ MỸ NAM
 ✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục mần non
+✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Giáo dục Mầm non
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Viên chức, Hiệu trưởng
@@ -302,6 +302,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
