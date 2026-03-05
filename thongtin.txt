@@ -239,7 +239,7 @@ anh: PHANTHIKIMNGUYET.jpg
 ✓ Lý luận chính trị: Sơ cấp
 ✓ Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã, Ủy viên Ban Thường vụ Hội Liên hiệp phụ nữ xã
 ===
-✓ anh: NGUYENPHAMMINHTRI.jpg
+anh: NGUYENPHAMMINHTRI.jpg
 ✓ Họ và tên: NGUYỄN PHẠM MINH TRÍ
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Nông lâm
@@ -302,6 +302,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
