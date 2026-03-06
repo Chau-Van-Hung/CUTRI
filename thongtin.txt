@@ -19,10 +19,10 @@ anh: NGUYENTHIHONGPHUONG.jpg
 anh: TRUONGCONGSON.jpg
 ✓ Họ và tên: TRƯƠNG CÔNG SƠN
 ✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế phát triển 
+✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kế toán
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
 ✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Phó bí thư Đảng ủy, Chủ tịch UBND xã
+✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Đảng ủy, Chủ tịch UBND xã
 ===
 anh: NGUYENTHITUYETTHANH.jpg
 ✓ Họ và tên: NGUYỄN THỊ TUYẾT THANH
@@ -396,6 +396,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
