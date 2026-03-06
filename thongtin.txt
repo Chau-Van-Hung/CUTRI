@@ -8,14 +8,14 @@ anh: NGUYENTHITHUHIEN.jpg
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Công chức, Chuyên viên 
 ===
-anh: TRANNGOCNHI.jpg
-✓ Họ và tên: TRẦN NGỌC NHI
-✓ Ngày sinh: 15/08/1985
+anh: NGUYENTHITHUYNGAN.jpg
+✓ Họ và tên: NGUYỄN THỊ THÙY NGÂN
+✓ Ngày sinh: 25/11/1998
 ✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
+✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Vật Lý
 ✓ Học hàm, học vị: Không
-✓ Lý luận chính trị: Trung cấp 
-✓ Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã
+✓ Lý luận chính trị: Sơ cấp
+✓ Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã, Phó Bí thư Đoàn TNCS Hồ Chí Minh xã Thăng Điền
 ===
 anh: NGUYENTHIHONGPHUONG.jpg
 ✓ Họ và tên: NGUYỄN THỊ HỒNG PHƯƠNG
@@ -34,77 +34,6 @@ anh: TRUONGCONGSON.jpg
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Đảng ủy, Chủ tịch UBND xã
-===
-anh: NGUYENTHITUYETTHANH.jpg
-✓ Họ và tên: NGUYỄN THỊ TUYẾT THANH
-✓ Ngày sinh: 15/11/1978
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học Sư phạm chuyên ngành Lịch sử
-✓ Học hàm, học vị: Thạc sĩ chuyên ngành Lịch sử Việt Nam
-✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Thành ủy viên, Bí thư Đảng ủy, Chủ tịch HĐND xã
-===
-anh: NGUYENTANCHIEN.jpg
-✓ Họ và tên: NGUYỄN TẤN CHIẾN
-✓ Ngày sinh: 20/01/1982
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế chính trị
-✓ Học hàm, học vị: Thạc sỹ chuyên ngành Quản lý kinh tế
-✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, UVBTV, Phó chủ tịch HĐND xã
-===
-anh: TRANTHIHUYENTRAN.jpg
-✓ Họ và tên: TRẦN THỊ HUYỀN TRÂN
-✓ Ngày sinh: 03/08/1983
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Kỹ thuật nông nghiệp
-✓ Học hàm, học vị: Thạc sĩ Quản lý công
-✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Công chức, Chuyên viên
-===
-anh: NGUYENVANDONG.jpg
-✓ Họ và tên: NGUYỄN VĂN ĐÔNG
-✓ Ngày sinh: 10/02/1976
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Tin học
-✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
-✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Công chức, UVBTV, Chủ nhiệm Ủy ban kiểm tra Đảng ủy xã
-===
-anh: NGUYENPHAMMINHTRI.jpg
-✓ Họ và tên: NGUYỄN PHẠM MINH TRÍ
-✓ Ngày sinh: 07/09/1981
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Nông lâm
-✓ Học hàm, học vị: Không
-✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, UVBTV, Phó Chủ tịch UBND xã
-===
-anh: NGUYENTHITHUYNGAN.jpg
-✓ Họ và tên: NGUYỄN THỊ THÙY NGÂN
-✓ Ngày sinh: 25/11/1998
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Vật Lý
-✓ Học hàm, học vị: Không
-✓ Lý luận chính trị: Sơ cấp
-✓ Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã, Phó Bí thư Đoàn TNCS Hồ Chí Minh xã Thăng Điền
-===
-anh: NGUYENTHIHONGPHUONG.jpg
-✓ Họ và tên: NGUYỄN THỊ HỒNG PHƯƠNG
-✓ Ngày sinh: 21/09/1984
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
-✓ Học hàm, học vị: Không
-✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Công chức, Trưởng Ban Xây dựng Đảng, Đảng ủy xã; kiêm Trưởng Ban Kinh tế-Ngân sách, HĐND xã
-===
-anh: TRUONGCONGSON.jpg
-✓ Họ và tên: TRƯƠNG CÔNG SƠN
-✓ Trình độ học vấn: 12/12
-✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế phát triển 
-✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
-✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Chủ tịch UBND xã
 ===
 anh: NGUYENVUVIET.jpg
 ✓ Họ và tên: NGUYỄN VŨ VIỆT
@@ -185,7 +114,7 @@ anh: NGUYENTHITUYETTHANH.jpg
 ✓ Chuyên môn nghiệp vụ: Đại học Sư phạm chuyên ngành Lịch sử
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Lịch sử Việt Nam
 ✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Bí thư Đảng ủy, Chủ tịch HĐND xã
+✓ Nghề nghiệp chức vụ: Cán bộ, Thành ủy viên, Bí thư Đảng ủy, Chủ tịch HĐND xã
 ===
 anh: DUONGTHANHTRI.jpg
 ✓ Họ và tên: DƯƠNG THÀNH TRÍ
@@ -212,7 +141,7 @@ anh: NGUYENTANCHIEN.jpg
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Kinh tế chính trị
 ✓ Học hàm, học vị: Thạc sỹ chuyên ngành Quản lý kinh tế
 ✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Phó chủ tịch Hội đồng nhân dân xã
+✓ Nghề nghiệp chức vụ: Cán bộ, UVBTV, Phó chủ tịch HĐND xã
 ===
 anh: VOTHIMYNAM.jpg
 ✓ Họ và tên: VÕ THỊ MỸ NAM
@@ -237,7 +166,7 @@ anh: TRANTHIHUYENTRAN.jpg
 ✓ Ngày sinh: 03/08/1983
 ✓ Trình độ học vấn: 12/12
 ✓ Chuyên môn nghiệp vụ: Đại học sư phạm chuyên ngành Kỹ thuật nông nghiệp
-✓ Học hàm, học vị: Không
+✓ Học hàm, học vị: Thạc sĩ Quản lý công
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Công chức, Chuyên viên
 ===
@@ -302,7 +231,7 @@ anh: NGUYENVANDONG.jpg
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Tin học
 ✓ Học hàm, học vị: Thạc sĩ chuyên ngành Chính sách công
 ✓ Lý luận chính trị: Cao cấp
-✓ Nghề nghiệp chức vụ: Công chức, Chủ nhiệm Ủy ban kiểm tra Đảng ủy xã
+✓ Nghề nghiệp chức vụ: Công chức, UVBTV, Chủ nhiệm Ủy ban kiểm tra Đảng ủy xã
 ===
 anh: DINHTHINGADUNG.jpg
 ✓ Họ và tên: ĐINH THỊ NGÃ DUNG
@@ -347,7 +276,7 @@ anh: NGUYENPHAMMINHTRI.jpg
 ✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Nông lâm
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Trung cấp
-✓ Nghề nghiệp chức vụ: Cán bộ, Phó Chủ tịch UBND xã
+✓ Nghề nghiệp chức vụ: Cán bộ, UVBTV, Phó Chủ tịch UBND xã
 ===
 anh: NGUYENMINHTRIEU.jpg
 ✓ Họ và tên: NGUYỄN MINH TRIỀU
@@ -376,7 +305,7 @@ anh: TRINHXUANA.jpg
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Người hoạt động Không chuyên trách ở thôn, Bí thư Chi bộ thôn
 ===
-anh: TRANTHINGOCNHI.jpg
+anh: TRANNGOCNHI.jpg
 ✓ Họ và tên: TRẦN NGỌC NHI
 ✓ Ngày sinh: 15/08/1985
 ✓ Trình độ học vấn: 12/12
@@ -411,6 +340,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
