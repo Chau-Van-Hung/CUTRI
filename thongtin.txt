@@ -8,6 +8,15 @@ anh: NGUYENTHITHUHIEN.jpg
 ✓ Lý luận chính trị: Trung cấp
 ✓ Nghề nghiệp chức vụ: Công chức, Chuyên viên 
 ===
+anh: TRANTHINGOCNHI.jpg
+✓ Họ và tên: TRẦN NGỌC NHI
+✓ Ngày sinh: 15/08/1985
+✓ Trình độ học vấn: 12/12
+✓ Chuyên môn nghiệp vụ: Đại học chuyên ngành Luật
+✓ Học hàm, học vị: Không
+✓ Lý luận chính trị: Trung cấp 
+✓ Nghề nghiệp chức vụ: Người hoạt động không chuyên trách ở xã
+===
 anh: NGUYENTHIHONGPHUONG.jpg
 ✓ Họ và tên: NGUYỄN THỊ HỒNG PHƯƠNG
 ✓ Ngày sinh: 21/09/1984
@@ -402,6 +411,7 @@ anh: NGUYENDINHTU.jpg
 ✓ Học hàm, học vị: Không
 ✓ Lý luận chính trị: Cao cấp
 ✓ Nghề nghiệp chức vụ: Cán bộ, Phó Bí thư Thường trực Đảng ủy xã
+
 
 
 
